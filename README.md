@@ -31,7 +31,7 @@ The IDS is designed to be modular, extensible, and easy to understand, making it
 ```bash
    pip install -r requirements.txt
 ```
-##USAGE
+## USAGE
 ```bash
    sudo python ids.py
 
