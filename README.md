@@ -19,38 +19,6 @@ The IDS is designed to be modular, extensible, and easy to understand, making it
 
 ---
 
-## Directory Structure
-custom_ids_project/
-│
-├── README.md                  # Project overview, setup, usage instructions
-├── requirements.txt           # Python dependencies (e.g., scapy, pandas, sklearn)
-├── ids.py                     # Main script to start the IDS
-│
-├── config/
-│   └── settings.py            # Configuration variables (thresholds, logging settings)
-│
-├── detectors/
-│   ├── __init__.py            # Makes this a Python package
-│   ├── signature_detector.py  # Signature-based detection logic (e.g., SYN flood)
-│   ├── anomaly_detector.py    # Anomaly detection logic (feature extraction, ML)
-│
-├── utils/
-│   ├── __init__.py
-│   ├── logger.py              # Logging setup and helper functions
-│   └── packet_utils.py        # Packet parsing and feature extraction functions
-│
-├── data/
-│   ├── training_data.csv      # (Optional) Dataset for anomaly detection training
-│   └── ids_alerts.log         # Log file for alerts (can be generated at runtime)
-│
-└── tests/
-    ├── __init__.py
-    ├── test_signature_detector.py
-    ├── test_anomaly_detector.py
-    └── test_packet_utils.py
-
-
----
 
 ## Installation
 
