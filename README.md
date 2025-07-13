@@ -4,7 +4,7 @@
 
 This project is a **Custom Intrusion Detection System (IDS)** built in Python. It captures live network traffic, analyzes packets for suspicious activity using both signature-based and anomaly-based detection methods, and logs alerts for potential security threats.
 
-The IDS is designed to be modular, extensible, and easy to understand, making it a great showcase project for cybersecurity and Python programming skills.
+The IDS is designed to be modular, extensible, and easy to understand.
 
 ---
 
