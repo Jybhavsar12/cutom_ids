@@ -25,12 +25,13 @@ The IDS is designed to be modular, extensible, and easy to understand, making it
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Jybhavsar12/custom_ids_project.git
+   git clone https://github.com/Jybhavsar12/cutom_ids.git
    cd custom_ids_project
 
-Installation
+```bash
    pip install -r requirements.txt
-
-USAGE
+```
+##USAGE
+```bash
    sudo python ids.py
 
